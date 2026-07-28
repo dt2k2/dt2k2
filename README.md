@@ -71,6 +71,9 @@ Practice projects for:
 ## 📈 GitHub Stats
 
 (https://github.com/Tquoc1/Inkit_DuQuang_V1)
+(https://github.com/dt2k2/HistoryGameLearning)
+(https://github.com/dt2k2/LogicChoice)
+(https://github.com/dt2k2/Kaspital-Simulator)
 
 [Coming soon...]
 ---
