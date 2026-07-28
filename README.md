@@ -85,15 +85,11 @@ Practice projects for:
 ## 📊 GitHub Activity & Contributions
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=dt2k2&show_icons=true&include_all_commits=true&count_private=false&theme=tokyonight&hide_border=true" alt="Bui Duc Thang's GitHub stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dt2k2&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used languages" />
+  <img height="180" src="./profile/stats.svg" alt="Bui Duc Thang's GitHub stats" />
+  <img height="180" src="./profile/top-langs.svg" alt="Most used languages" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dt2k2&theme=tokyonight" alt="GitHub contribution activity" />
-</p>
-
-> These cards update automatically from public GitHub activity. Updates may be delayed because the services cache their data.
+> These cards are generated inside this repository and updated automatically every day.
 
 ### Selected Repositories
 
