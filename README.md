@@ -2,7 +2,7 @@
 
 Backend Developer | Unity Developer | Security Enthusiast
 
-I'm passionate about building web applications, backend systems, and exploring web security.
+I'm passionate about building web applications, backend systems, games, and exploring web security.
 
 ---
 
@@ -11,8 +11,8 @@ I'm passionate about building web applications, backend systems, and exploring w
 - 💻 Learning Backend Development
 - 🎮 Developing Unity WebGL Games
 - 🏆 Building Leaderboard & Ranking Systems
-- 🔐 Interested in Authentication & Web Security
-- 🌱 Currently learning Spring Boot & Node.js
+- 🔐 Interested in Authentication, Networking & Web Security
+- 🌱 Currently learning Spring Boot, Node.js & Cybersecurity Tools
 
 ---
 
@@ -24,6 +24,7 @@ I'm passionate about building web applications, backend systems, and exploring w
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C%23](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![C%2B%2B](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=database&logoColor=white)
 
 ### Backend
@@ -37,13 +38,25 @@ I'm passionate about building web applications, backend systems, and exploring w
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Researching-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-### Tools
+### Security & Networking
 
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap%20%2F%20Zenmap-2C2D72?style=for-the-badge&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+
+### Development Tools & Platforms
+
+![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Dev-C++](https://img.shields.io/badge/Embarcadero_Dev--C%2B%2B-E62431?style=for-the-badge&logo=embarcadero&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Desktop](https://img.shields.io/badge/GitHub_Desktop-8034A9?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![Unity Hub](https://img.shields.io/badge/Unity_Hub-000000?style=for-the-badge&logo=unity&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/Oracle_VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
 
 ---
 
@@ -69,14 +82,25 @@ Practice projects for:
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Activity & Contributions
 
-(https://github.com/Tquoc1/Inkit_DuQuang_V1)
-(https://github.com/dt2k2/HistoryGameLearning)
-(https://github.com/dt2k2/LogicChoice)
-(https://github.com/dt2k2/Kaspital-Simulator)
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=dt2k2&show_icons=true&include_all_commits=true&count_private=false&theme=tokyonight&hide_border=true" alt="Bui Duc Thang's GitHub stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dt2k2&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Most used languages" />
+</p>
 
-[Coming soon...]
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dt2k2&theme=tokyonight" alt="GitHub contribution activity" />
+</p>
+
+> These cards update automatically from public GitHub activity. Updates may be delayed because the services cache their data.
+
+### Selected Repositories
+
+- [Inkit DuQuang V1](https://github.com/Tquoc1/Inkit_DuQuang_V1)
+- [History Game Learning](https://github.com/dt2k2/HistoryGameLearning)
+- [Logic Choice](https://github.com/dt2k2/LogicChoice)
+- [Kaspital Simulator](https://github.com/dt2k2/Kaspital-Simulator)
 
 ---
 
