@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <svg xmlns="http://www.w3.org/2000/svg" width="820" height="320" viewBox="0 0 820 320" role="img" aria-label="External GitHub contributions by dt2k2">
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .title { fill: #70a5fd; font-size: 22px; font-weight: 700; }
+      .repo { fill: #f0f6fc; font-size: 17px; font-weight: 700; }
+      .label { fill: #a5b4cf; font-size: 13px; }
+      .value { fill: #38bdae; font-size: 15px; font-weight: 700; }
+      .muted { fill: #8b98b5; font-size: 12px; }
+      .types { fill: #c8d1e3; font-size: 12px; }
+      .added { fill: #3fb950; font-size: 14px; font-weight: 700; }
+      .deleted { fill: #f85149; font-size: 14px; font-weight: 700; }
+      .footer { fill: #7d89a4; font-size: 11px; }
+    </style>
+    <rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d"/>
+    <text x="28" y="42" class="title">External Contributions</text>
+    <text x="28" y="64" class="muted">Verified from merged pull requests and attributed commits on default branches</text>
+    
+        <g transform="translate(28 82)">
+          <rect width="764" height="160" rx="10" fill="#151b2b" stroke="#2f81f7" stroke-opacity="0.55"/>
+          <text x="22" y="31" class="repo">INKIT - 2D Psychological Horror Game</text>
+          <text x="22" y="53" class="muted">Tquoc1/Inkit_DuQuang_V1  •  Role: Side Developer  •  Stack: Unity / C#</text>
+          <g transform="translate(22 76)">
+            <text x="0" y="0" class="label">Merged PRs</text>
+            <text x="118" y="0" class="value">3</text>
+            <text x="190" y="0" class="label">Attributed commits</text>
+            <text x="342" y="0" class="value">112</text>
+            <text x="420" y="0" class="label">Files changed</text>
+            <text x="530" y="0" class="value">758</text>
+          </g>
+          <g transform="translate(22 106)">
+            <text x="0" y="0" class="label">Line changes</text>
+            <text x="118" y="0" class="added">+99467</text>
+            <text x="176" y="0" class="deleted">-8026</text>
+            <text x="260" y="0" class="muted">on main</text>
+          </g>
+          <text x="22" y="137" class="types">Changed file types: Unity Scene: 36816  •  Unity Metadata: 31494  •  Other: 13217  •  C#: 11771</text>
+        </g>
+    <text x="28" y="300" class="footer">Contributor: dt2k2  •  Updated automatically: 29/07/2026, 14:50 (Vietnam time)</text>
+  </svg>
