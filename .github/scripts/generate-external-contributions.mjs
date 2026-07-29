@@ -53,6 +53,13 @@ function escapeXml(value) {
     .replaceAll("'", "&apos;");
 }
 
+function compactNumber(value) {
+  return new Intl.NumberFormat("en", {
+    notation: value >= 1000 ? "compact" : "standard",
+    maximumFractionDigits: 1,
+  }).format(value);
+}
+
 function fileType(filename) {
   const lower = filename.toLowerCase();
   const ext = extname(lower);
@@ -154,8 +161,9 @@ async function collectTarget(target) {
 
 function renderCard(results) {
   const width = 820;
-  const blockHeight = 184;
-  const height = 92 + results.length * blockHeight + 44;
+  const blockHeight = 218;
+  const height = 72 + results.length * blockHeight + 36;
+  const palette = ["#2f81f7", "#a371f7", "#f2cc60", "#f778ba"];
   const updated = new Intl.DateTimeFormat("en-GB", {
     timeZone: "Asia/Ho_Chi_Minh",
     year: "numeric",
@@ -168,30 +176,57 @@ function renderCard(results) {
 
   const blocks = results
     .map((result, index) => {
-      const y = 82 + index * blockHeight;
-      const typeText = result.topTypes.length
-        ? result.topTypes.map(([name, lines]) => `${name}: ${lines}`).join("  •  ")
-        : "No attributed file changes found";
+      const y = 62 + index * blockHeight;
+      const churn = result.additions + result.deletions;
+      const metrics = [
+        ["Merged PRs", result.mergedPrs],
+        ["Commits", result.commits],
+        ["Files", result.files],
+        ["Line changes", compactNumber(churn)],
+      ];
+      const metricTiles = metrics
+        .map(([label, value], tileIndex) => {
+          const x = 22 + tileIndex * 184;
+          return `
+            <g transform="translate(${x} 59)">
+              <rect width="168" height="58" rx="8" fill="#0d1117" stroke="#303b55"/>
+              <text x="14" y="23" class="metricValue">${escapeXml(value)}</text>
+              <text x="14" y="43" class="metricLabel">${escapeXml(label)}</text>
+            </g>`;
+        })
+        .join("");
+
+      const typeTotal = result.topTypes.reduce((sum, [, lines]) => sum + lines, 0) || 1;
+      let cursor = 22;
+      const bar = result.topTypes
+        .map(([name, lines], typeIndex) => {
+          const segmentWidth = (720 * lines) / typeTotal;
+          const segment = `<rect x="${cursor.toFixed(2)}" y="133" width="${segmentWidth.toFixed(2)}" height="13" fill="${palette[typeIndex]}"/>`;
+          cursor += segmentWidth;
+          return segment;
+        })
+        .join("");
+      const legend = result.topTypes
+        .map(([name, lines], typeIndex) => {
+          const x = 22 + (typeIndex % 2) * 360;
+          const legendY = 170 + Math.floor(typeIndex / 2) * 22;
+          const percent = ((lines / typeTotal) * 100).toFixed(1);
+          return `
+            <circle cx="${x + 6}" cy="${legendY - 4}" r="5" fill="${palette[typeIndex]}"/>
+            <text x="${x + 18}" y="${legendY}" class="legend">${escapeXml(name)} ${percent}%</text>`;
+        })
+        .join("");
+
       return `
         <g transform="translate(28 ${y})">
-          <rect width="764" height="160" rx="10" fill="#151b2b" stroke="#2f81f7" stroke-opacity="0.55"/>
-          <text x="22" y="31" class="repo">${escapeXml(result.title)}</text>
-          <text x="22" y="53" class="muted">${escapeXml(result.repository)}  •  Role: ${escapeXml(result.role)}  •  Stack: ${escapeXml(result.stack)}</text>
-          <g transform="translate(22 76)">
-            <text x="0" y="0" class="label">Merged PRs</text>
-            <text x="118" y="0" class="value">${result.mergedPrs}</text>
-            <text x="190" y="0" class="label">Attributed commits</text>
-            <text x="342" y="0" class="value">${result.commits}</text>
-            <text x="420" y="0" class="label">Files changed</text>
-            <text x="530" y="0" class="value">${result.files}</text>
-          </g>
-          <g transform="translate(22 106)">
-            <text x="0" y="0" class="label">Line changes</text>
-            <text x="118" y="0" class="added">+${result.additions}</text>
-            <text x="176" y="0" class="deleted">-${result.deletions}</text>
-            <text x="260" y="0" class="muted">on ${escapeXml(result.defaultBranch)}</text>
-          </g>
-          <text x="22" y="137" class="types">Changed file types: ${escapeXml(typeText)}</text>
+          <rect width="764" height="202" rx="11" fill="#151b2b" stroke="#2f81f7" stroke-opacity="0.55"/>
+          <text x="22" y="28" class="repo">${escapeXml(result.title)}</text>
+          <text x="22" y="48" class="muted">${escapeXml(result.role)}  •  ${escapeXml(result.stack)}  •  ${escapeXml(result.repository)}</text>
+          ${metricTiles}
+          <rect x="22" y="133" width="720" height="13" rx="6.5" fill="#27324a"/>
+          <clipPath id="bar-${index}"><rect x="22" y="133" width="720" height="13" rx="6.5"/></clipPath>
+          <g clip-path="url(#bar-${index})">${bar}</g>
+          ${legend}
         </g>`;
     })
     .join("");
@@ -202,19 +237,16 @@ function renderCard(results) {
       text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
       .title { fill: #70a5fd; font-size: 22px; font-weight: 700; }
       .repo { fill: #f0f6fc; font-size: 17px; font-weight: 700; }
-      .label { fill: #a5b4cf; font-size: 13px; }
-      .value { fill: #38bdae; font-size: 15px; font-weight: 700; }
       .muted { fill: #8b98b5; font-size: 12px; }
-      .types { fill: #c8d1e3; font-size: 12px; }
-      .added { fill: #3fb950; font-size: 14px; font-weight: 700; }
-      .deleted { fill: #f85149; font-size: 14px; font-weight: 700; }
-      .footer { fill: #7d89a4; font-size: 11px; }
+      .metricValue { fill: #38bdae; font-size: 19px; font-weight: 700; }
+      .metricLabel { fill: #9aa8c2; font-size: 11px; }
+      .legend { fill: #c8d1e3; font-size: 12px; }
+      .footer { fill: #7d89a4; font-size: 10px; }
     </style>
     <rect width="100%" height="100%" rx="12" fill="#0d1117" stroke="#30363d"/>
-    <text x="28" y="42" class="title">External Contributions</text>
-    <text x="28" y="64" class="muted">Verified from merged pull requests and attributed commits on default branches</text>
+    <text x="28" y="39" class="title">External Contributions</text>
     ${blocks}
-    <text x="28" y="${height - 20}" class="footer">Contributor: ${escapeXml(contributor)}  •  Updated automatically: ${escapeXml(updated)} (Vietnam time)</text>
+    <text x="28" y="${height - 15}" class="footer">${escapeXml(contributor)}  •  ${escapeXml(updated)}  •  verified on default branches</text>
   </svg>`;
 }
 
