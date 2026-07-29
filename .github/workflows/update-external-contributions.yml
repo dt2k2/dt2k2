@@ -1,0 +1,42 @@
+name: Update external contribution card
+
+on:
+  schedule:
+    - cron: "37 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/scripts/generate-external-contributions.mjs"
+      - ".github/workflows/update-external-contributions.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-card:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Generate external contribution card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONTRIBUTOR: dt2k2
+        run: node .github/scripts/generate-external-contributions.mjs
+
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/external-contributions.svg
+          git diff --cached --quiet || git commit -m "Update external contribution card"
+          git push
