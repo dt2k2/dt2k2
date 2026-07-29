@@ -91,6 +91,14 @@ Practice projects for:
 
 > These cards are generated inside this repository and updated automatically every day.
 
+### External Contributions
+
+<p align="center">
+  <img src="./profile/external-contributions.svg" alt="Verified external GitHub contributions" />
+</p>
+
+> External contribution statistics include only merged pull requests and commits attributed to `dt2k2` on each repository's default branch. File types are calculated from the files actually changed by those commits.
+
 ### Selected Repositories
 
 - [Inkit DuQuang V1](https://github.com/Tquoc1/Inkit_DuQuang_V1)
