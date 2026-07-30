@@ -99,16 +99,6 @@ I'm passionate about building web applications, backend systems, games, and expl
       <br /><a href="https://www.credly.com/users/bui-thang">View on Credly</a>
     </td>
   </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <a href="https://www.credly.com/badges/b6c44a07-73e6-4bfc-9afb-ee41fe6b905e/public_url">
-        <img src="https://images.credly.com/images/7b3f119b-ada8-4ff6-817a-f2a8bbb7fe97/blob" alt="AWS Academy Graduate - Cloud Web Application Builder" width="170" />
-      </a>
-      <br /><strong>AWS Academy Graduate – Cloud Web Application Builder</strong>
-      <br /><sub>Issued by Amazon Web Services Training and Certification</sub>
-      <br /><a href="https://www.credly.com/badges/b6c44a07-73e6-4bfc-9afb-ee41fe6b905e/public_url">Verify credential</a>
-    </td>
-  </tr>
 </table>
 
 <p align="center">
