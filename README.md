@@ -60,6 +60,61 @@ I'm passionate about building web applications, backend systems, games, and expl
 
 ---
 
+## 🏅 Certifications
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://www.credly.com/users/bui-thang">
+        <img src="https://img.shields.io/badge/Cisco-CCNA%3A_Introduction_to_Networks-049FD9?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA: Introduction to Networks" />
+      </a>
+      <br /><strong>CCNA: Introduction to Networks</strong>
+      <br /><sub>Issued by Cisco Networking Academy</sub>
+      <br /><a href="https://www.credly.com/users/bui-thang">View on Credly</a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://www.credly.com/users/bui-thang">
+        <img src="https://img.shields.io/badge/Cisco-Switching%2C_Routing_%26_Wireless-049FD9?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA: Switching, Routing, and Wireless Essentials" />
+      </a>
+      <br /><strong>CCNA: Switching, Routing, and Wireless Essentials</strong>
+      <br /><sub>Issued by Cisco Networking Academy</sub>
+      <br /><a href="https://www.credly.com/users/bui-thang">View on Credly</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://www.credly.com/users/bui-thang">
+        <img src="https://img.shields.io/badge/Cisco-CyberOps_Associate-005073?style=for-the-badge&logo=cisco&logoColor=white" alt="CyberOps Associate" />
+      </a>
+      <br /><strong>CyberOps Associate</strong>
+      <br /><sub>Issued by Cisco Networking Academy</sub>
+      <br /><a href="https://www.credly.com/users/bui-thang">View on Credly</a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://www.credly.com/users/bui-thang">
+        <img src="https://img.shields.io/badge/Cisco-Ethical_Hacker-005073?style=for-the-badge&logo=cisco&logoColor=white" alt="Ethical Hacker" />
+      </a>
+      <br /><strong>Ethical Hacker</strong>
+      <br /><sub>Issued by Cisco Networking Academy</sub>
+      <br /><a href="https://www.credly.com/users/bui-thang">View on Credly</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <a href="https://www.credly.com/badges/b6c44a07-73e6-4bfc-9afb-ee41fe6b905e/public_url">
+        <img src="https://img.shields.io/badge/AWS_Academy-Cloud_Web_Application_Builder-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS Academy Graduate - Cloud Web Application Builder" />
+      </a>
+      <br /><strong>AWS Academy Graduate – Cloud Web Application Builder</strong>
+      <br /><sub>Issued by Amazon Web Services Training and Certification</sub>
+      <br /><a href="https://www.credly.com/badges/b6c44a07-73e6-4bfc-9afb-ee41fe6b905e/public_url">Verify credential</a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://www.credly.com/users/bui-thang">View all verified credentials on Credly →</a>
+</p>
+
 ## 📌 Featured Projects
 
 ### 🎮 Economic Simulation Game
@@ -99,12 +154,17 @@ Practice projects for:
 
 > External contribution statistics include only merged pull requests and commits attributed to `dt2k2` on each repository's default branch. File types are calculated from the files actually changed by those commits.
 
-### Selected Repositories
+## 🚀 Repositories
 
-- [Inkit DuQuang V1](https://github.com/Tquoc1/Inkit_DuQuang_V1)
-- [History Game Learning](https://github.com/dt2k2/HistoryGameLearning)
-- [Logic Choice](https://github.com/dt2k2/LogicChoice)
-- [Kaspital Simulator](https://github.com/dt2k2/Kaspital-Simulator)
+### 🎮 Game Development
+
+- **[Dư Quang (Inkit DuQuang V1)](https://github.com/Tquoc1/Inkit_DuQuang_V1)** — A 2D psychological-horror adventure built with Unity and C#, featuring exploration, branching dialogue, puzzles, limited resources, and bilingual support. I contribute to this team repository.
+- **[Kaspital Simulator](https://github.com/dt2k2/Kaspital-Simulator)** — A Unity-based economic simulation project for experimenting with gameplay systems and decision-driven mechanics.
+- **[Logic Choice](https://github.com/dt2k2/LogicChoice)** — A compact choice-driven project focused on interaction flow, branching decisions, and gameplay logic.
+
+### 🌐 Interactive Learning
+
+- **[History Game Learning](https://github.com/dt2k2/HistoryGameLearning)** — An interactive history-learning web experience built with TanStack Start, React, Tailwind CSS, Zustand, and Motion, combining a cinematic lesson with a decision-based simulation.
 
 ---
 
