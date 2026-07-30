@@ -1,4 +1,6 @@
-# Hi 👋 I'm Bui Duc Thang
+<p align="left">
+  <img src="./profile/name-animation.svg" alt="Hi, I'm Bui Duc Thang" />
+</p>
 
 Backend Developer | Unity Developer | Security Enthusiast
 
