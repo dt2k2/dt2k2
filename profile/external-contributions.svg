@@ -15,7 +15,7 @@
     
         <g transform="translate(28 62)">
           <rect width="764" height="202" rx="11" fill="#151b2b" stroke="#2f81f7" stroke-opacity="0.55"/>
-          <text x="22" y="28" class="repo">Du Quang - 2D Psychological Horror Game</text>
+          <text x="22" y="28" class="repo">INKIT - 2D Psychological Horror Game</text>
           <text x="22" y="48" class="muted">Side Developer  •  Unity / C#  •  Tquoc1/Inkit_DuQuang_V1</text>
           
             <g transform="translate(22 59)">
@@ -51,5 +51,5 @@
             <circle cx="388" cy="188" r="5" fill="#f778ba"/>
             <text x="400" y="192" class="legend">C# 11.0%</text>
         </g>
-    <text x="28" y="311" class="footer">dt2k2  •  29/07/2026, 15:10  •  verified on default branches</text>
+    <text x="28" y="311" class="footer">dt2k2  •  30/07/2026, 10:44  •  verified on default branches</text>
   </svg>
