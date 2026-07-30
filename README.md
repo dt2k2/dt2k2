@@ -1,8 +1,10 @@
-<p align="left">
+<p align="center">
   <img src="./profile/name-animation.svg" alt="Hi, I'm Bui Duc Thang" />
 </p>
 
-Backend Developer | Unity Developer | Security Enthusiast
+<p align="center">
+  <strong>Backend Developer | Unity Developer | Security Enthusiast</strong>
+</p>
 
 I'm passionate about building web applications, backend systems, games, and exploring web security.
 
