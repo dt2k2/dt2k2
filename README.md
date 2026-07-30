@@ -82,6 +82,28 @@ I'm an **Information Assurance student at FPT University** with a hands-on focus
   <a href="https://www.credly.com/users/bui-thang">View all verified credentials on Credly →</a>
 </p>
 
+### 🔐 Applied Cryptography Specialization
+
+| # | Course | Provider | Status |
+|:--:|---|---|:--:|
+| 1 | Cryptography and Information Theory | Coursera | ✅ Complete |
+| 2 | Symmetric Cryptography | Coursera | ✅ Complete |
+| 3 | Asymmetric Cryptography and Key Management | Coursera | ✅ Complete |
+| 4 | Cryptographic Hash and Integrity Protection | Coursera | ✅ Complete |
+
+> Completed all four courses in the Applied Cryptography Specialization, covering cryptographic foundations, symmetric and asymmetric systems, key management, hashing, and integrity protection.
+
+### 🛡️ ISC2 Security Coursework
+
+| # | Course | Provider | Status |
+|:--:|---|---|:--:|
+| 1 | Security Operations | ISC2 | ✅ Complete |
+| 2 | Systems and Application Security | ISC2 | ✅ Complete |
+| 3 | Access Control | ISC2 | ✅ Complete |
+| 4 | Security Concepts and Practices | ISC2 | ✅ Complete |
+
+> Completed foundational ISC2 coursework across security operations, application security, access control, and core security practices.
+
 ## 📌 Featured Projects
 
 ### 🎮 Economic Simulation Game
