@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="84" viewBox="0 0 760 84" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Bui Duc Thang</title>
+  <desc id="desc">Animated typing text with a color-changing gradient</desc>
+  <defs>
+    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D9FF">
+        <animate attributeName="stop-color" values="#00D9FF;#8B5CF6;#FF4D8D;#FFD166;#00D9FF" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8B5CF6">
+        <animate attributeName="stop-color" values="#8B5CF6;#FF4D8D;#FFD166;#00D9FF;#8B5CF6" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FF4D8D">
+        <animate attributeName="stop-color" values="#FF4D8D;#FFD166;#00D9FF;#8B5CF6;#FF4D8D" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <clipPath id="typingClip">
+      <rect x="0" y="0" width="0" height="84">
+        <animate attributeName="width" values="0;0;690;690;0" keyTimes="0;0.08;0.58;0.92;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#typingClip)">
+    <text x="8" y="56" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="url(#nameGradient)" filter="url(#glow)">
+      Hi 👋 I'm Bui Duc Thang
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <rect x="8" y="18" width="3" height="47" rx="1.5" fill="#00D9FF">
+    <animate attributeName="x" values="8;8;690;690;8" keyTimes="0;0.08;0.58;0.92;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1;0;1" dur="0.75s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#00D9FF;#8B5CF6;#FF4D8D;#FFD166;#00D9FF" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
