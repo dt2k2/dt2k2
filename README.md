@@ -6,11 +6,11 @@
   <strong>Backend Developer | Unity Developer | Security Enthusiast</strong>
 </p>
 
-I'm passionate about building web applications, backend systems, games, and exploring web security.
-
 ---
 
 ## 🚀 About Me
+
+I'm an **Information Assurance student at FPT University** with a hands-on focus on backend development, Unity game systems, networking, and practical cybersecurity. I enjoy turning ideas into working products—from interactive games and REST APIs to security labs—and continuously strengthen my skills through real projects, problem-solving, and team collaboration.
 
 - 💻 Learning Backend Development
 - 🎮 Developing Unity WebGL Games
