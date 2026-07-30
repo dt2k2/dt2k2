@@ -66,7 +66,7 @@ I'm passionate about building web applications, backend systems, games, and expl
   <tr>
     <td align="center" width="50%">
       <a href="https://www.credly.com/users/bui-thang">
-        <img src="https://img.shields.io/badge/Cisco-CCNA%3A_Introduction_to_Networks-049FD9?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA: Introduction to Networks" />
+        <img src="https://images.credly.com/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="CCNA: Introduction to Networks" width="170" />
       </a>
       <br /><strong>CCNA: Introduction to Networks</strong>
       <br /><sub>Issued by Cisco Networking Academy</sub>
@@ -74,7 +74,7 @@ I'm passionate about building web applications, backend systems, games, and expl
     </td>
     <td align="center" width="50%">
       <a href="https://www.credly.com/users/bui-thang">
-        <img src="https://img.shields.io/badge/Cisco-Switching%2C_Routing_%26_Wireless-049FD9?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA: Switching, Routing, and Wireless Essentials" />
+        <img src="https://images.credly.com/images/f4ccdba9-dd65-4349-baad-8f05df116443/CCNASRWE__1_.png" alt="CCNA: Switching, Routing, and Wireless Essentials" width="170" />
       </a>
       <br /><strong>CCNA: Switching, Routing, and Wireless Essentials</strong>
       <br /><sub>Issued by Cisco Networking Academy</sub>
@@ -84,7 +84,7 @@ I'm passionate about building web applications, backend systems, games, and expl
   <tr>
     <td align="center" width="50%">
       <a href="https://www.credly.com/users/bui-thang">
-        <img src="https://img.shields.io/badge/Cisco-CyberOps_Associate-005073?style=for-the-badge&logo=cisco&logoColor=white" alt="CyberOps Associate" />
+        <img src="https://images.credly.com/images/53f37f83-04a1-4935-9b1e-21a99cc6e1b2/CyberOpsAssoc.png" alt="CyberOps Associate" width="170" />
       </a>
       <br /><strong>CyberOps Associate</strong>
       <br /><sub>Issued by Cisco Networking Academy</sub>
@@ -92,7 +92,7 @@ I'm passionate about building web applications, backend systems, games, and expl
     </td>
     <td align="center" width="50%">
       <a href="https://www.credly.com/users/bui-thang">
-        <img src="https://img.shields.io/badge/Cisco-Ethical_Hacker-005073?style=for-the-badge&logo=cisco&logoColor=white" alt="Ethical Hacker" />
+        <img src="https://images.credly.com/images/242902b5-f527-42ad-865e-977c9e1b5b58/image.png" alt="Ethical Hacker" width="170" />
       </a>
       <br /><strong>Ethical Hacker</strong>
       <br /><sub>Issued by Cisco Networking Academy</sub>
@@ -102,7 +102,7 @@ I'm passionate about building web applications, backend systems, games, and expl
   <tr>
     <td align="center" colspan="2">
       <a href="https://www.credly.com/badges/b6c44a07-73e6-4bfc-9afb-ee41fe6b905e/public_url">
-        <img src="https://img.shields.io/badge/AWS_Academy-Cloud_Web_Application_Builder-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS Academy Graduate - Cloud Web Application Builder" />
+        <img src="https://images.credly.com/images/7b3f119b-ada8-4ff6-817a-f2a8bbb7fe97/blob" alt="AWS Academy Graduate - Cloud Web Application Builder" width="170" />
       </a>
       <br /><strong>AWS Academy Graduate – Cloud Web Application Builder</strong>
       <br /><sub>Issued by Amazon Web Services Training and Certification</sub>
